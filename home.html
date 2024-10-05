@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shipment Journey Map</title>
+    <!-- <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    /> -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  </head>
+  <body>
+    <h1>Shipment Journey</h1>
+    <div id="map"></div>
+
+    <!-- <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script> -->
+    <script src="./libs/leaflet-curve/leaflet.curve.js"></script>
+
+    <script src="./script.js">
+      // Initialize the map and set the view to the center of the start coordinates
+    //   const map = L.map("map").setView([19.076, 72.8777], 3); // Mumbai coordinates (start point)
+
+    //   // Add the tile layer (OpenStreetMap layer)
+    //   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    //     attribution:
+    //       '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    //   }).addTo(map);
+
+    //   // Define coordinates
+    //   const start = [19.076, 72.8777]; // Mumbai (start)
+    //   const current = [-36.802237, 12.913736]; // Current location
+    //   const end = [40.7128, -74.006]; // New York (end)
+
+    //   // Add markers for the start, current, and end positions
+    //   L.marker(start).addTo(map).bindPopup("Start: Mumbai").openPopup();
+    //   L.marker(current).addTo(map).bindPopup("Current Location").openPopup();
+    //   L.marker(end).addTo(map).bindPopup("End: New York").openPopup();
+
+    //   // Create a polyline connecting the start, current, and end points
+    //   const journeyPath = L.polyline([start, current, end], {
+    //     color: "blue",
+    //   }).addTo(map);
+
+    //   // Zoom the map to fit the polyline
+    //   map.fitBounds(journeyPath.getBounds());
+    </script>
+  </body>
+</html>
